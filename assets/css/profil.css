@@ -1,0 +1,132 @@
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    position: absolute ;
+    display: flex;
+    margin: 0;
+   width: 100vw
+}
+home-user{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.aside{
+    flex: 0 0 330px;
+    width: 23vw;
+    background-color: #fff;
+    color: #848697;
+    border-radius: 3px 0 0 3px;
+    padding: 50px 0;
+}
+
+.containner-profile{
+    flex: 1 1 auto;
+    background-color: #f6f6fc;
+    padding: 50px;
+    border-radius: 0 3px 3px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.profile-page{
+    display: flex;
+}
+.profil-user{
+    text-align: center
+}
+.user{
+    margin: 5px auto;
+    width: 120px;
+    font-size: 15px;
+    line-height: 6px;
+}
+.user>.user-name{
+    font-weight: bold;
+    color: #333;
+}
+.profil-user img{
+    height: 150px;
+    border-radius: 6px;
+}
+ul{
+    list-style: none;
+}
+.user-navigation {
+    position: relative;
+    display: block;
+    margin-top: 60px;
+}
+.user-navigation li{
+    padding: 0px 25px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.user-navigation li a {
+    padding-left: 15px;
+    vertical-align: super;
+    text-decoration: none;
+    color: #808080;
+}
+
+.user-navigation li a:hover{
+    color: #474646;
+}
+.profil-title{
+    font-weight: bold;
+    color: black;
+    font-size: xx-large;
+    padding: 10px 0;
+}
+.profil-dresciption{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.profil-graph{
+    display: flex;
+    margin: 2vw 1vw;
+    justify-content: space-between;
+}
+.xp-graph,.project-graph{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px -8px #808080;
+    height: 50vh;
+    justify-content: space-between;
+}
+.xp-graph{
+    width: 55vw;
+}
+.project-graph{
+    width: 17vw;
+    text-align: center;
+}
+.fisrt-graph{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 1vw;
+}
+.small-graph{
+    width: 15vw;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px -8px #808080;
+    margin-right: 3vw;
+    color: #808080;
+    font-size: 18px;
+}
+.small-graph>.total-xp{
+    font-weight: bold;
+    color: #000000;
+}
+.small-graph>.xp-duration{
+    font-size: 12px;
+}
