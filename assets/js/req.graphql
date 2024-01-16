@@ -1,0 +1,200 @@
+{
+    event(where: {
+        usersRelation: { userId: { _eq: 2085} }
+        object: { type: { _in: ["module", "piscine"]} }
+        }) {
+        usersRelation{
+        userId
+        userLogin
+        userAuditRatio
+        level
+        }
+        id
+        path
+        endAt
+        status
+        createdAt
+        parent {
+            id
+            path
+            registrationId
+        }
+        
+        }
+    }
+}
+
+
+get all xp winned
+  {
+    user {
+        id
+        login
+        email
+        campus
+        lastName
+        firstName
+        auditRatio
+        totalUp
+        totalDown
+        transactions (
+            order_by: [{ type: desc }, { amount: desc }]
+            where: { 
+              event: { object: { type: { _eq:"module" } } } 
+              type: { _eq: "xp" }
+            },
+        ) 
+        { 
+            type
+            amount
+          	path
+          
+        }
+      }
+  }
+
+get 10 last project
+ {
+transaction(where: {
+      _and: [
+        { type: { _eq: "xp" } }
+        { _or: [
+          { _and: [
+            { event: { object: { type: { _eq:"module" } } } }
+          ]}
+        ]}
+      ]
+		}, order_by: { createdAt: desc },limit:10) {
+      id
+      amount
+      createdAt
+      path
+      isBonus
+  		object{
+        name
+      }
+    }
+}
+
+new totalamout
+event(where: {
+        object: { type: { _in: ["module", "piscine"]} }
+    
+  },
+    distinct_on:[path]
+  ) {
+      id
+      path
+      endAt
+      status
+      createdAt
+      object{
+        id
+        name
+        type
+      }
+		xps(order_by:{event:{}}){
+      amount
+      path
+      
+    }
+  }
+
+
+
+
+
+  // 1 ssde
+
+    {
+    user {
+        id
+        login
+        email
+        campus
+        lastName
+        firstName
+        auditRatio
+        totalUp
+        totalDown
+        transactions (
+            order_by: [{ type: desc }, { amount: desc }]
+            where: { 
+              event: { object: { type: { _eq:"module" } } } 
+              type: { _eq: "xp" }
+            },
+        ) 
+        { 
+            type
+            amount
+          	path
+        }
+      }
+    event(where: {
+        object: { type: { _in: ["module", "piscine"]} }
+  },
+    distinct_on:[path]
+  ) {
+      id
+      path
+      endAt
+      status
+      createdAt
+      object{
+        id
+        name
+        type
+      }
+		xps(order_by:{event:{}}){
+      amount
+      path
+    }
+  }
+}
+
+zkkxkkzxkzkx
+  {
+    user {
+        id
+        login
+        email
+        campus
+        lastName
+        firstName
+        auditRatio
+        totalUp
+        totalDown
+        transactions (
+          order_by: [{ type: desc }, { amount: desc }]
+          where: { 
+            event: { object: { type: { _eq:"module" } } } 
+            type: { _eq: "xp" }
+        }) 
+        { 
+          type
+          amount
+          path
+        }
+    }
+    event(where: {
+        object: { type: { _in: ["module", "piscine"]} }
+  	},
+    distinct_on:[path]
+  	) 
+	{
+    id
+    path
+    endAt
+    status
+    createdAt
+    object{
+      id
+      name
+      type
+    }
+    xps(order_by:{event:{}}){
+      amount
+      path
+    }
+	}
+}

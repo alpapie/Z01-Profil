@@ -1,4 +1,3 @@
-import { FectData } from "../../service/fecthService.js"
 import { Logout } from "../../service/logout.js"
 
 const Menu=[
@@ -7,20 +6,8 @@ const Menu=[
         icon: "./assets/icon/home.svg"
     },
     {
-        name:"Projects",
-        icon: "./assets/icon/project.svg"
-    },
-    {
         name:"Piscine",
         icon: "./assets/icon/piscine.svg"
-    },
-    {
-        name:"Audits",
-        icon: "./assets/icon/audit.svg"
-    },
-    {
-        name:"Account",
-        icon: "./assets/icon/account.svg"
     },
     {
         name:"Logout",
@@ -31,6 +18,7 @@ export  class AsideHome  extends HTMLElement{
     constructor(userInfo){
         super()
         this.userInfo=userInfo
+        console.log(userInfo);
     }
     connectedCallback(){
         
@@ -48,8 +36,8 @@ export  class AsideHome  extends HTMLElement{
           alt=""
         />
         <div class="user">
-          <p class="user-name">alpapie</p>
-          <span class="description"> web developeur </span>
+          <p class="user-name">${this.userInfo.login} </p>
+          <span class="description"> ${this.userInfo.campus}</span> Campus
         </div>
       </div>
       <div class="user-navigation">

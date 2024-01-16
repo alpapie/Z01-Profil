@@ -1,0 +1,61 @@
+<svg id="SvgjsSvg2178" width="150" height="128.7" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg"
+    xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;">
+    <foreignObject x="0" y="0" width="150" height="128.7">
+        <div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml"></div>
+    </foreignObject>
+    <g id="SvgjsG2180" class="apexcharts-inner apexcharts-graphical" transform="translate(13, 0)">
+        <defs id="SvgjsDefs2179">
+            <clipPath id="gridRectMask7uyi2tm0g">
+                <rect id="SvgjsRect2181" width="132" height="150" x="-3" y="-1" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+            <clipPath id="forecastMask7uyi2tm0g"></clipPath>
+            <clipPath id="nonForecastMask7uyi2tm0g"></clipPath>
+            <clipPath id="gridRectMarkerMask7uyi2tm0g">
+                <rect id="SvgjsRect2182" width="130" height="152" x="-2" y="-2" rx="0" ry="0" opacity="1"
+                    stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+            </clipPath>
+        </defs>
+        <g id="SvgjsG2183" class="apexcharts-radialbar">
+            <g id="SvgjsG2184">
+                <g id="SvgjsG2185" class="apexcharts-tracks">
+                    <g id="SvgjsG2186" class="apexcharts-radialbar-track apexcharts-track" rel="1">
+                        <path id="apexcharts-radialbarTrack-0"
+                            d="M 63 17.515853658536578 A 45.48414634146342 45.48414634146342 0 1 1 62.99206151892912 17.515854351299737"
+                            fill="none" fill-opacity="1" stroke="rgba(242,242,242,0.85)" stroke-opacity="1"
+                            stroke-linecap="round" stroke-width="3.219926829268293" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area"
+                            data:pathOrig="M 63 17.515853658536578 A 45.48414634146342 45.48414634146342 0 1 1 62.99206151892912 17.515854351299737">
+                        </path>
+                    </g>
+                    
+                </g>
+                <g id="SvgjsG2188">
+                    <g id="SvgjsG2192" class="apexcharts-series apexcharts-radial-series" seriesName="Followers" rel="1"
+                        data:realIndex="0">
+                        <path id="SvgjsPath2193"
+                            d="M 63 17.515853658536578 A 45.48414634146342 45.48414634146342 0 0 1 68.5431230499778 108.14511441191024"
+                            fill="none" fill-opacity="0.85" stroke="#45d65b" stroke-opacity="1" stroke-linecap="round" stroke-dashoffset="91"
+                            stroke-width="3.319512195121952" stroke-dasharray="0"
+                            class="apexcharts-radialbar-area apexcharts-radialbar-slice-0" data:angle="173"
+                            data:value="48" index="0" j="0"
+                            data:pathOrig="M 63 17.515853658536578 A 45.48414634146342 45.48414634146342 0 0 1 68.5431230499778 108.14511441191024">
+                        </path>
+                    </g>
+                    <circle id="SvgjsCircle2189" r="43.87418292682928" cx="63" cy="63"
+                        class="apexcharts-radialbar-hollow" fill="#ffffff"></circle>
+                    <g id="SvgjsG2190" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"
+                        style="opacity: 1;"><text id="SvgjsText2191" font-family="Helvetica, Arial, sans-serif" x="63"
+                            y="68" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="800"
+                            fill="#4b9bfa" class="apexcharts-text apexcharts-datalabel-value"
+                            style="font-family: Helvetica, Arial, sans-serif;">48%</text></g>
+                </g>
+            </g>
+        </g>
+        <line id="SvgjsLine2194" x1="0" y1="0" x2="126" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1"
+            stroke-linecap="butt" class="apexcharts-ycrosshairs"></line>
+        <line id="SvgjsLine2195" x1="0" y1="0" x2="126" y2="0" stroke-dasharray="0" stroke-width="0"
+            stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line>
+    </g>
+</svg>

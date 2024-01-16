@@ -1,0 +1,817 @@
+{
+    "data": {
+      "event": [
+        {
+          "users": [
+            {
+              "login": "thbalde"
+            },
+            {
+              "login": "vndiaye"
+            },
+            {
+              "login": "athioubo"
+            },
+            {
+              "login": "mamadoumdiop"
+            },
+            {
+              "login": "mamoundiaye"
+            },
+            {
+              "login": "seydiop"
+            },
+            {
+              "login": "papebsow"
+            },
+            {
+              "login": "sthiaw"
+            },
+            {
+              "login": "dthionga"
+            },
+            {
+              "login": "pndione"
+            },
+            {
+              "login": "abdbalde"
+            },
+            {
+              "login": "mtchouat"
+            },
+            {
+              "login": "abdoulazsow"
+            },
+            {
+              "login": "malminthe"
+            },
+            {
+              "login": "odiaite"
+            },
+            {
+              "login": "mohasarr"
+            },
+            {
+              "login": "alfall"
+            },
+            {
+              "login": "asaminze"
+            },
+            {
+              "login": "ndesene"
+            },
+            {
+              "login": "anahari"
+            },
+            {
+              "login": "mbyade"
+            },
+            {
+              "login": "bcoulibal"
+            },
+            {
+              "login": "maddia"
+            },
+            {
+              "login": "chdiallo"
+            },
+            {
+              "login": "awniasse"
+            },
+            {
+              "login": "bthiaw"
+            },
+            {
+              "login": "itine"
+            },
+            {
+              "login": "moumorou"
+            },
+            {
+              "login": "difall"
+            },
+            {
+              "login": "pbeye"
+            },
+            {
+              "login": "sesall"
+            },
+            {
+              "login": "yombengue"
+            },
+            {
+              "login": "mouwade"
+            },
+            {
+              "login": "rdi"
+            },
+            {
+              "login": "mouhameddiouf"
+            },
+            {
+              "login": "oudieng"
+            },
+            {
+              "login": "ndeyendiaye"
+            },
+            {
+              "login": "modieme"
+            },
+            {
+              "login": "adjakhdiawara"
+            },
+            {
+              "login": "mzaboub"
+            },
+            {
+              "login": "helkhatr"
+            },
+            {
+              "login": "zdnaya"
+            },
+            {
+              "login": "asoule"
+            },
+            {
+              "login": "faseye"
+            },
+            {
+              "login": "sismaila"
+            },
+            {
+              "login": "mraheem"
+            },
+            {
+              "login": "daoucamara"
+            },
+            {
+              "login": "abssarr"
+            },
+            {
+              "login": "sdiagne"
+            },
+            {
+              "login": "mloum"
+            },
+            {
+              "login": "aladiop"
+            },
+            {
+              "login": "dalassan"
+            },
+            {
+              "login": "nfadhima"
+            },
+            {
+              "login": "andom"
+            },
+            {
+              "login": "mkhadim"
+            },
+            {
+              "login": "skaissane"
+            },
+            {
+              "login": "yodieme"
+            },
+            {
+              "login": "mdrame"
+            },
+            {
+              "login": "nmbengue"
+            },
+            {
+              "login": "frdiouf"
+            },
+            {
+              "login": "amadoudiallo1"
+            },
+            {
+              "login": "ibradieng"
+            },
+            {
+              "login": "abdouldiallo"
+            },
+            {
+              "login": "papaabddiop"
+            },
+            {
+              "login": "shane"
+            },
+            {
+              "login": "cisall"
+            },
+            {
+              "login": "disow"
+            },
+            {
+              "login": "dasene"
+            },
+            {
+              "login": "ayousra"
+            },
+            {
+              "login": "serlo"
+            },
+            {
+              "login": "dbeye"
+            },
+            {
+              "login": "bindoye"
+            },
+            {
+              "login": "nndeyeam"
+            },
+            {
+              "login": "elhthiam"
+            },
+            {
+              "login": "alassall"
+            },
+            {
+              "login": "ammbacke"
+            },
+            {
+              "login": "kagaye"
+            },
+            {
+              "login": "mouhamedsow"
+            },
+            {
+              "login": "bassndiaye"
+            },
+            {
+              "login": "sbadiane"
+            },
+            {
+              "login": "pcoly"
+            },
+            {
+              "login": "ndeyeseck0"
+            },
+            {
+              "login": "ktall"
+            },
+            {
+              "login": "vgoudiab"
+            },
+            {
+              "login": "fatisarr"
+            },
+            {
+              "login": "papayondiaye"
+            },
+            {
+              "login": "dmamour"
+            },
+            {
+              "login": "serignmbaye"
+            },
+            {
+              "login": "bmbaye"
+            },
+            {
+              "login": "mouhametadiouf"
+            },
+            {
+              "login": "amadsy"
+            },
+            {
+              "login": "aekogham"
+            },
+            {
+              "login": "jdione"
+            },
+            {
+              "login": "elhadjisarr"
+            },
+            {
+              "login": "abdouladieng"
+            },
+            {
+              "login": "amndoye"
+            },
+            {
+              "login": "ckounou"
+            },
+            {
+              "login": "thgueye"
+            },
+            {
+              "login": "bemohamed"
+            },
+            {
+              "login": "aseye"
+            },
+            {
+              "login": "flsambou"
+            }
+          ],
+          "id": 23,
+          "path": "/dakar/piscine-go",
+          "endAt": "2022-12-23T18:30:00+00:00",
+          "status": "done",
+          "createdAt": "2022-11-29T10:00:00.556994+00:00",
+          "parent": null
+        },
+        {
+          "users": [
+            {
+              "login": "amadoutidiallo"
+            },
+            {
+              "login": "nmbengue"
+            },
+            {
+              "login": "bindoye"
+            },
+            {
+              "login": "yayediop"
+            },
+            {
+              "login": "gdiokhan"
+            },
+            {
+              "login": "edieng"
+            },
+            {
+              "login": "babacandiaye"
+            },
+            {
+              "login": "mouhamadoudiouf"
+            },
+            {
+              "login": "yba"
+            },
+            {
+              "login": "ndiediop"
+            },
+            {
+              "login": "malcoulibaly"
+            },
+            {
+              "login": "mabdelwe"
+            },
+            {
+              "login": "emalo"
+            },
+            {
+              "login": "sefaye"
+            },
+            {
+              "login": "mbadiao"
+            },
+            {
+              "login": "maolo"
+            },
+            {
+              "login": "fmokomba"
+            },
+            {
+              "login": "adiane"
+            },
+            {
+              "login": "sedia"
+            },
+            {
+              "login": "mouhamsylla"
+            },
+            {
+              "login": "cheimbaye"
+            },
+            {
+              "login": "mamadbah"
+            },
+            {
+              "login": "lodiouf"
+            },
+            {
+              "login": "abdoulaziba"
+            },
+            {
+              "login": "masamba"
+            },
+            {
+              "login": "ousmasene"
+            },
+            {
+              "login": "muciss"
+            },
+            {
+              "login": "kallgueye"
+            },
+            {
+              "login": "annndiaye"
+            },
+            {
+              "login": "cnzale"
+            },
+            {
+              "login": "cheikhmodiouf"
+            },
+            {
+              "login": "papasarr"
+            },
+            {
+              "login": "npouille"
+            },
+            {
+              "login": "jgoudiab"
+            },
+            {
+              "login": "belhadjs"
+            },
+            {
+              "login": "aliouniang"
+            },
+            {
+              "login": "fakeita"
+            },
+            {
+              "login": "availlam"
+            },
+            {
+              "login": "msoumare"
+            },
+            {
+              "login": "alsow"
+            },
+            {
+              "login": "idydiagne"
+            },
+            {
+              "login": "eibounda"
+            },
+            {
+              "login": "cheikhndiaye9"
+            },
+            {
+              "login": "ialimoud"
+            },
+            {
+              "login": "mouhamadoufadiop"
+            },
+            {
+              "login": "aniasse"
+            },
+            {
+              "login": "fatouthiam2"
+            },
+            {
+              "login": "fatouthiam1"
+            },
+            {
+              "login": "fmamadou"
+            },
+            {
+              "login": "mandaw"
+            },
+            {
+              "login": "passarr"
+            },
+            {
+              "login": "fatidiop"
+            },
+            {
+              "login": "papebsow"
+            },
+            {
+              "login": "iyossang"
+            },
+            {
+              "login": "nnourdin"
+            },
+            {
+              "login": "domdiouf"
+            },
+            {
+              "login": "daiba"
+            },
+            {
+              "login": "mohamedsarr0"
+            },
+            {
+              "login": "abdouksow"
+            },
+            {
+              "login": "addiedhiou"
+            },
+            {
+              "login": "abdbalde"
+            },
+            {
+              "login": "mouwade"
+            },
+            {
+              "login": "oulam"
+            },
+            {
+              "login": "ader"
+            },
+            {
+              "login": "sniang"
+            },
+            {
+              "login": "abdouazindiaye"
+            },
+            {
+              "login": "itine"
+            },
+            {
+              "login": "cisall"
+            },
+            {
+              "login": "papgueye"
+            },
+            {
+              "login": "alassall"
+            },
+            {
+              "login": "aboubakdiallo"
+            },
+            {
+              "login": "jefaye"
+            },
+            {
+              "login": "lomalack"
+            },
+            {
+              "login": "alogou"
+            },
+            {
+              "login": "sdakodo"
+            },
+            {
+              "login": "pba"
+            },
+            {
+              "login": "jtoure"
+            },
+            {
+              "login": "bsall"
+            },
+            {
+              "login": "moustapndiaye"
+            },
+            {
+              "login": "frdiouf"
+            },
+            {
+              "login": "sbadiane"
+            },
+            {
+              "login": "ssock"
+            },
+            {
+              "login": "mthiaw"
+            },
+            {
+              "login": "mousdieng"
+            },
+            {
+              "login": "nifaye"
+            },
+            {
+              "login": "bakseck"
+            },
+            {
+              "login": "moussfall"
+            },
+            {
+              "login": "vindour"
+            },
+            {
+              "login": "chdiallo"
+            },
+            {
+              "login": "serignmbaye"
+            },
+            {
+              "login": "dalassan"
+            },
+            {
+              "login": "bcoulibal"
+            },
+            {
+              "login": "mouhametadiouf"
+            },
+            {
+              "login": "ndiba"
+            },
+            {
+              "login": "igueye"
+            },
+            {
+              "login": "mouhameddiouf"
+            },
+            {
+              "login": "ediallo"
+            },
+            {
+              "login": "preydedy"
+            },
+            {
+              "login": "papaabddiop"
+            },
+            {
+              "login": "abdouladieng"
+            },
+            {
+              "login": "alo"
+            },
+            {
+              "login": "mabalde"
+            },
+            {
+              "login": "ssambadi"
+            },
+            {
+              "login": "dgaye"
+            },
+            {
+              "login": "mohngom"
+            },
+            {
+              "login": "djibsow"
+            },
+            {
+              "login": "sdiene"
+            },
+            {
+              "login": "mamoundiaye"
+            },
+            {
+              "login": "osamb"
+            },
+            {
+              "login": "mamdrame"
+            },
+            {
+              "login": "ousmaneba0"
+            },
+            {
+              "login": "ahbarry"
+            },
+            {
+              "login": "serwade"
+            },
+            {
+              "login": "abdotop"
+            },
+            {
+              "login": "pndione"
+            },
+            {
+              "login": "pka"
+            },
+            {
+              "login": "ymadike"
+            },
+            {
+              "login": "mnom"
+            },
+            {
+              "login": "khthiam"
+            },
+            {
+              "login": "magniang"
+            }
+          ],
+          "id": 56,
+          "path": "/dakar/div-01",
+          "endAt": "2025-03-15T05:30:00+00:00",
+          "status": null,
+          "createdAt": "2023-03-15T17:33:21.560299+00:00",
+          "parent": null
+        },
+        {
+          "users": [
+            {
+              "login": "mabalde"
+            },
+            {
+              "login": "abdbalde"
+            },
+            {
+              "login": "amadoutidiallo"
+            },
+            {
+              "login": "abdouladieng"
+            },
+            {
+              "login": "fatouthiam1"
+            },
+            {
+              "login": "domdiouf"
+            },
+            {
+              "login": "idydiagne"
+            },
+            {
+              "login": "nmbengue"
+            },
+            {
+              "login": "ousmaneba0"
+            },
+            {
+              "login": "cheikhndiaye9"
+            },
+            {
+              "login": "aniasse"
+            },
+            {
+              "login": "eibounda"
+            },
+            {
+              "login": "ndiba"
+            },
+            {
+              "login": "pka"
+            },
+            {
+              "login": "bsall"
+            },
+            {
+              "login": "mamdrame"
+            },
+            {
+              "login": "mohngom"
+            },
+            {
+              "login": "alsow"
+            },
+            {
+              "login": "itine"
+            },
+            {
+              "login": "mandaw"
+            },
+            {
+              "login": "osamb"
+            },
+            {
+              "login": "mouhametadiouf"
+            },
+            {
+              "login": "mthiaw"
+            },
+            {
+              "login": "igueye"
+            },
+            {
+              "login": "sbadiane"
+            },
+            {
+              "login": "ediallo"
+            },
+            {
+              "login": "frdiouf"
+            },
+            {
+              "login": "serwade"
+            },
+            {
+              "login": "aboubakdiallo"
+            },
+            {
+              "login": "cisall"
+            },
+            {
+              "login": "mouwade"
+            },
+            {
+              "login": "bcoulibal"
+            },
+            {
+              "login": "ialimoud"
+            },
+            {
+              "login": "sdiene"
+            },
+            {
+              "login": "vindour"
+            },
+            {
+              "login": "ymadike"
+            },
+            {
+              "login": "sniang"
+            },
+            {
+              "login": "nifaye"
+            }
+          ],
+          "id": 102,
+          "path": "/dakar/div-01/piscine-js-2",
+          "endAt": "2023-11-10T16:00:00+00:00",
+          "status": "done",
+          "createdAt": "2023-10-16T10:00:00.015739+00:00",
+          "parent": {
+            "id": 56,
+            "path": "/dakar/div-01",
+            "registrationId": 55
+          }
+        }
+      ]
+    }
+  }

@@ -13,6 +13,16 @@ export class LoginUser extends HTMLElement{
     
     connectedCallback(){
         this.Template()
+        let pwdinput=document.querySelector("#password-input")
+        pwdinput .addEventListener("click",()=>{
+           let pwdd=document.querySelector("#mypasword")
+            if (pwdd.type === "password") {
+                pwdd.type = "text";
+              } else {
+                pwdd.type = "password";
+              }
+        })
+
         let LoginForm=document.querySelector("#login-form")
         LoginForm.addEventListener("submit",async (e)=>{
             e.preventDefault()
@@ -56,9 +66,10 @@ export class LoginUser extends HTMLElement{
                     </div>
 
                     <div class="form__div">
-                        <input type="password" name="password" class="form__input" placeholder="">
+                        <input type="password" id="mypasword" name="password" class="form__input" placeholder="">
                         <label for="" class="form__label">Password</label>
-                    </div>
+                        </div>
+                        <input  id="password-input" type="checkbox" >Show Password
                     <button  id="login-btn" type="submit" class="form__button" >Sign In</button>
                 </form>
             </div>
