@@ -32,7 +32,7 @@ export  class AsideHome  extends HTMLElement{
         let content=`
       <div class="profil-user">
         <img
-          src="./assets/icon/_709c9c20-c5dc-4834-92fc-fd1de757e207.jpeg"
+          src="//ui-avatars.com/api/?name=${this.userInfo.login}&size=100&rounded=true&color=fff&background=random"
           alt=""
         />
         <div class="user">

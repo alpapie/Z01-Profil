@@ -1,17 +1,33 @@
 import { FormatAudit, GetAllxp, ParseLvel } from "../../helpers/helper.js";
 import LevelFunc from "../../svg/levelEvolution.js";
+import BarreSvg from "./graph/bargrapgh.js";
 
 export class MainUser extends HTMLElement {
   constructor(data) {
     super();
     this.user = data.user[0];
     this.data = data.allxp;
+
+    this.skills = this.user.skill;
     this.level = data.level[0];
-    this.TenLastProject=this.data.slice(0,10)
+    this.TenLastProject = this.data.slice(0, 10);
   }
   connectedCallback() {
     this.classList.add("containner-profile");
     this.Template();
+    let bard= document.querySelectorAll("#bar-diagram")
+      bard.forEach(elm=>{
+        let curentbare=document.querySelector("#current-elem")
+        elm.addEventListener("mouseover",(e)=>{
+          curentbare.innerHTML=elm.dataset.id
+          curentbare.setAttribute("x" ,+elm.getAttribute("x"))
+          curentbare.setAttribute("y",(+elm.getAttribute("y"))-20)
+
+        })
+        elm.addEventListener("mouseout",(e)=>{
+          curentbare.innerHTML=""
+        })
+      })
   }
 
   Template() {
@@ -50,26 +66,34 @@ export class MainUser extends HTMLElement {
          <div class="profil-graph">
            <div class="xp-graph">
            <p>List of Skills</p>
-           
+            <div class="diagramme-section">
+            ${BarreSvg(this.skills)}
+            </div>
            </div>
            <div class="project-graph">
               <p> Last project</p>
                 <div class="list-project">
                 ${
-                  this.listPoroject=[],
-                  this.TenLastProject.forEach(element => {
+                  ((this.listPoroject = []),
+                  this.TenLastProject.forEach((element) => {
                     this.listPoroject.push(`
                     <div class="bar">
                       <div class="info">
-                        <span>${element.object.name.length>19?element.object.name.slice(0,25)+"...":element.object.name} </span>
+                        <span>${
+                          element.object.name.length > 19
+                            ? element.object.name.slice(0, 25) + "..."
+                            : element.object.name
+                        } </span>
                       </div>
                       <div class="progress-line html">
-                        <span style="width:${(element.amount/1000)/10}%">${FormatAudit(element.amount)}</span>
+                        <span style="width:${
+                          element.amount / 1000 / 10
+                        }%">${FormatAudit(element.amount)}</span>
                       </div>
                     </div>
-                   `)
+                   `);
                   }),
-                  this.listPoroject.join("\n")
+                  this.listPoroject.join("\n"))
                 }
                 </div>
            </div>
