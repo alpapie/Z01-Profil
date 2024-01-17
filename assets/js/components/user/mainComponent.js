@@ -1,6 +1,6 @@
 import { FormatAudit, GetAllxp, ParseLvel } from "../../helpers/helper.js";
 import LevelFunc from "../../svg/levelEvolution.js";
-import BarreSvg from "./graph/bargrapgh.js";
+import BarreSvg from "./graph/bargraph.js";
 
 export class MainUser extends HTMLElement {
   constructor(data) {

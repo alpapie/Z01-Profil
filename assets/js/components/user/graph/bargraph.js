@@ -1,12 +1,12 @@
 export default function BarreSvg(data=[{type: 'skill_unix', amount: 15}]){
     let bar=[]
-    let svgW=(data.length*1000)/16
+    let svgWidth=(data.length*1000)/16
     let x=10
     
     let content=`
    <h1>Skills </h1>
 
-<svg width="${svgW}" height="500">
+<svg width="${svgWidth}" height="500">
 	<g transform="translate(40,20)">
 	<g class="x axis" transform="translate(0,450)">
 		<path class="domain" d="M0,6V0H900V6"></path>
@@ -47,7 +47,7 @@ export default function BarreSvg(data=[{type: 'skill_unix', amount: 15}]){
 		</g>
 		<path class="domain" d="M-6,0H0V450H-6"></path>
 		<text transform="rotate(-90)" y="6" dy=".71em" style="text-anchor: end;">Skills</text>
-		<text y="60" x="600" id="current-elem" dy=".71em" style="">current element</text>
+		<text y="60" x="600" id="current-elem" dy=".71em" style=""></text>
 	</g>
     ${
         data.forEach((elem)=>{
