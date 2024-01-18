@@ -1,5 +1,5 @@
 # GraphQL Profile 
-
+![alt text](./assets/profilepage.png)
 This project is a web application that allows  users to create their own profile page by querying a GraphQL endpoint. The profile page displays user information and includes a statistics section with SVG graphs. The UI is implemented using vanilla JavaScript and Web Components.
 
 ## Features
@@ -27,5 +27,8 @@ This project is a web application that allows  users to create their own profile
     git clone https://github.com/alpapie/Z01-Profil.git
     #for github
    ```
+## hosting link
+[Zone 01 profile](https://zone01profile.vercel.app/)
+
 ## Authors
 **[mamoundiaye](https://github.com/alpapie?tab=repositories)**<br>
