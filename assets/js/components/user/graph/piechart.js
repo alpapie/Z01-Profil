@@ -33,7 +33,7 @@ export default function PieChart(data=[{grade: 1}]){
         </svg>
         <svg class="detaille-diagrame">
             <circle class="" cx="20" cy="10" r="10" fill="#61C0BF"  />
-            <circle class="" cx="20" cy="40" r="10" fill="#DB4547" />
+            <circle class="" cx="20" cy="40" r="10" fill="#B50002" />
             
             <text class="" x="40" y="14" fill="#000">Pass</text>
             <text class="" x="40" y="46" fill="#000">Fail</text>

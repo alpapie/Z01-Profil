@@ -40,6 +40,7 @@ export class MainUser extends HTMLElement {
         classidbar.classList.remove("active-diagram")
         piegraph.style.display="flex"
         baregraph.style.display="none"
+        
       }
     })
     classidbar.addEventListener("click",(e)=>{
@@ -48,6 +49,7 @@ export class MainUser extends HTMLElement {
         classidpie.classList.remove("active-diagram")
         baregraph.style.display="block"
         piegraph.style.display="none"
+        
       }
     })
   }

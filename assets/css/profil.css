@@ -114,6 +114,8 @@ ul{
 .diagramme-section{
     overflow-x: scroll;
     width: 48vw;
+    transition: all 3s ease-out;
+
 }
 .diagramme-section::-webkit-scrollbar{
   display: none;

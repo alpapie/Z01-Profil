@@ -4,8 +4,7 @@ export default function BarreSvg(data=[{type: 'skill_unix', amount: 15}]){
     let x=10
     
     let content=`
-   <h1>Skills </h1>
-
+	<h1>.</h1>
 <svg width="${svgWidth}" height="500" id="barre-graph">
 	<g transform="translate(40,20)">
 	<g class="x axis" transform="translate(0,450)">
