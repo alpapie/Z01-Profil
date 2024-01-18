@@ -35,6 +35,13 @@ export  class HomeUser  extends HTMLElement{
                     type
                     amount
                   }
+                  audited:audits(
+                    where:{
+                      grade:{_is_null:false},
+                    }
+                    ){
+                    grade
+                  }
                 }
                 allxp: transaction (
                 order_by: [{ createdAt: desc }, { amount: desc }]

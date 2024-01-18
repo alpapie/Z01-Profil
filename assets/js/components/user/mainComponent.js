@@ -1,5 +1,6 @@
 import { FormatAudit, GetAllxp, ParseLvel } from "../../helpers/helper.js";
 import LevelFunc from "../../svg/levelEvolution.js";
+import PieChart from "./graph/piechart.js";
 import BarreSvg from "./graph/bargraph.js";
 
 export class MainUser extends HTMLElement {
@@ -28,6 +29,27 @@ export class MainUser extends HTMLElement {
           curentbare.innerHTML=""
         })
       })
+    let piegraph=document.querySelector("#pie-graph")
+    let baregraph=document.querySelector("#barre-graph")
+
+    let classidpie=document.querySelector("#audit-diagramme")
+    let classidbar=document.querySelector("#list-skills")
+    classidpie.addEventListener("click",(e)=>{
+      if (!classidpie.classList.contains("active-diagram")) {
+        classidpie.classList.add("active-diagram")
+        classidbar.classList.remove("active-diagram")
+        piegraph.style.display="flex"
+        baregraph.style.display="none"
+      }
+    })
+    classidbar.addEventListener("click",(e)=>{
+      if (!classidbar.classList.contains("active-diagram")) {
+        classidbar.classList.add("active-diagram")
+        classidpie.classList.remove("active-diagram")
+        baregraph.style.display="block"
+        piegraph.style.display="none"
+      }
+    })
   }
 
   Template() {
@@ -64,10 +86,12 @@ export class MainUser extends HTMLElement {
            </div>
          </div>
          <div class="profil-graph">
-           <div class="xp-graph">
-           <p>List of Skills</p>
+           <div class="xp-graph"> 
+           <p style="cursor:pointer"><span class="active-diagram" id="list-skills">List of Skills</span> | <span class="" id="audit-diagramme">Audit diagramme</span> </p>
             <div class="diagramme-section">
-            ${BarreSvg(this.skills)}
+               ${BarreSvg(this.skills) }
+              ${PieChart(this.user.audited)}
+              
             </div>
            </div>
            <div class="project-graph">

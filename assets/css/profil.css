@@ -106,7 +106,7 @@ ul{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 22px -8px #808080;
-    height: 77vh;
+    /* height: 77vh; */
     justify-content: space-between;
 
 }
@@ -114,6 +114,9 @@ ul{
 .diagramme-section{
     overflow-x: scroll;
     width: 48vw;
+}
+.diagramme-section::-webkit-scrollbar{
+  display: none;
 }
 
 .xp-graph{
@@ -306,3 +309,45 @@ ul{
     font-size:15px;
     color: #808088 !important; 
   }
+
+.chart-text {
+  /*font: 16px/1.4em "Montserrat", Arial, sans-serif;*/
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-number {
+  font-size: 0.5em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+.chart-label {
+  font-size: 0.15em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
+}
+
+.detaille-diagrame{
+  width: 5vw;
+}
+.piesvg-audit{
+  align-items: center;
+  justify-content: center;
+}
+
+.active-diagram{
+  color: #554bc2;
+  font-weight: bold;
+}
