@@ -89,7 +89,7 @@ export class MainUser extends HTMLElement {
          </div>
          <div class="profil-graph">
            <div class="xp-graph"> 
-           <p style="cursor:pointer"><span class="active-diagram" id="list-skills">List of Skills</span> | <span class="" id="audit-diagramme">Audit diagramme</span> </p>
+           <p style="cursor:pointer"><span class="active-diagram" id="list-skills">List of Skills</span> | <span class="" id="audit-diagramme">Audit diagram</span> </p>
             <div class="diagramme-section">
                ${BarreSvg(this.skills) }
               ${PieChart(this.user.audited)}
