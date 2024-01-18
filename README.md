@@ -25,7 +25,7 @@ This project is a web application that allows  users to create their own profile
    git clone https://learn.zone01dakar.sn/git/mamoundiaye/graphql.git 
    #for zone01 student 
 
-    git clone https://github.com/alpapie/Z01-Profil.git
+   git clone https://github.com/alpapie/Z01-Profil.git
     #for github
    ```
 ## hosting link
